@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Daopay - The way to pay</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta http-equiv="Cache-Control" content="no-cache" />
+	<meta http-equiv="Pragma"        content="no-cache" />
+	<meta name="ROBOTS" content="index,follow,noarchive" />
+	<meta name="keywords" content="daopay,pay,phone,sms,without credit card,no credit card, phone bill,buy" />
+	<meta name="description" content="Buy online, pay by SMS, charged to your phone bill." />
+	<link rel="SHORTCUT ICON" href="daopay.ico" />
+	<script type="text/javascript" language="JavaScript">
+		<!--
+		function checksize() {
+			if(document.all&&!window.opera) {
+				var a=document.all.payment;
+				payment.document.body.scroll='no';
+			} else {
+				var a=document.getElementById('payment');
+				a.scrolling='no';
+			}
+			var a=document.getElementById('payment');
+			payment.document.getElementsByTagName('body')[0].style.overflow='hidden';
+			var b=payment.document.getElementById('iebody');
+			if(a.style.height != eval(b.offsetHeight+30)+'px') {
+				a.style.height=eval(b.offsetHeight+30)+'px';
+			}
+		}
+		//-->
+	</script>
+	<style type="text/css">
+		
+	td { 
+		color: #000000;
+		font-family: Verdana, Tahoma, Arial;
+		font-size:10px;
+	}
+	</style>
+</head>
+<body bgcolor="#c7ddff" topmargin="0" marginheight="0" leftmargin="0">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%">
+	<tr>
+		<td align="center" valign="middle">
+			<table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="white">
+				<tr>
+					<td align="center"><img src="img/top.gif" border="0" /></td>
+				</tr>
+				<tr>
+					<td align="center">
+						<iframe onLoad="checksize()" id="payment" name="payment" style="height:550px;width:520px;" marginheight="0" marginwidth="0" frameborder="0" src="http://daopay.com/pay/?appcode=53483&prodcode=1&stdStyle=2">
+						Sorry, your browser does not support iframes! <a href="http://daopay.com/pay/?appcode=53483&prodcode=1">click here</a> to continue
+						</iframe>		
+					</td>
+				</tr>
+				<tr>
+					<td align="center"><img src="img/bottom.gif" border="0" /></td>
+				</tr>
+						
+			</table>
+			<br/>
+			Copyright &copy; 2010 by <a href="http://www.daotec.com/" target="_blank">DaoTec Ltd.</a> All rights reserved
+		</td>
+	</tr>
+</table>
+</body>
+</html>
